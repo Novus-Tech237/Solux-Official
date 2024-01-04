@@ -710,126 +710,121 @@ margin-bottom: 25px;
 }
 
 /* end footer section*/
-
-/*Work Pane Section*/
-.admin_pane{
-  background-color: #585858;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 100%;
+.partnership{
+  margin-top: 5rem;
+  padding-left: 35rem;
 }
-.user_data{
+.partnership-images {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
-.user_data span{
+
+.partnership-images a {
+  flex-basis: 50%;
+  /* max-width: 50%; */
+  box-sizing: border-box;
+  padding: 10px;
   text-align: center;
-  font-size: 2rem;
-  color: var(--body-color);
-}
-.user_data input,
-.user_data select{
-  height: 2rem;
-  border-radius: 5px;
-  border: 1px solid transparent;
-  background-color: white;
-  color: #000;
-}
-.user_data textarea{
-  resize: none;
-  height: 20rem;
-  border-radius: 5px;
-  font-family: 'Times New Roman', sans-serif;
-}
-.submition{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.user_data button{
-  color: white;
-  background-color: var(--primary-color);
-  cursor: pointer;
-  width: 10rem;
-  height: 3rem;
-  font-size: 1.2rem;
-  border: 1px solid transparent;
-  border-radius: 5px;
-}
-.user_data button:hover{
-  border: 1px solid var(--primary-color);
-  background-color: transparent;
-  color: var(--primary-color); 
-}
-.cardbox {
-  width: 100%;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.dropbox {
-  width: 100%;
-  height: 300px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.dropbox img {
-  width: 100%;
-  height: 90%;
-}
-
-.dropbox span {
-  color: #777;
-}
-
-/* Optional styles for the uploaded image */
-.cardbox img {
+.partnership-images img {
   max-width: 100%;
-  max-height: 100%;
-  border-radius: 5px;
+  max-width: 300px;
 }
-.card-size{
-  width: 22rem;
-  border-radius: 20px;
-}
-.border-text{ 
-  border: 2px solid; 
-  padding: 5px;
-  border-radius:10px;
-}
-.custom-list {
-  list-style-type: none;
-  padding: 0;
-}
-.custom-list li::before {
-  content: "\2713";
-  color: green;
-  margin-right: 5px;
-}
-.custom-list .crossed-item::before {
-  content: "\2717";
-  color: red;
-  margin-right: 5px;
-}
-.button{
-  background-color: #e93f1a;
-  color: #FFFFFF !important;
-  border-radius: 5px;
-}
-.button:hover{
-  background-color: #b93416;
-  transition: all 0.2s ease-in;
-}
-@media  screen and (max-width: 768px){
-  
-}
-/*End Of Work Pane*/
 
+/* ====================
+Footer Section
+======================*/
+.footer {
+  background: #100f1f;
+  padding: 80px 0px 0px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+}
 
+.footer .footer-widget .widget-title {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.footer .footer-widget p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .footer-contact ul {
+  margin-top: 30px;
+}
+
+.footer .footer-contact ul li {
+  margin-bottom: 20px;
+}
+
+.footer .footer-contact ul li i {
+  color: #E93F1A;
+  margin-right: 20px;
+  float: left;
+  margin-top: 7px;
+  min-width: 30px;
+}
+
+.footer .footer-contact ul li div {
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.footer .footer-contact ul li div strong {
+  display: block;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.footer .footer-links li {
+  padding: 5px 0px;
+}
+
+.footer .footer-links a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .footer-links a:hover {
+  color: #E93F1A;
+}
+
+.footer .footer-socials {
+  margin-top: 30px;
+}
+
+.footer .footer-socials a {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 14px;
+  color: #222;
+  border-radius: 100%;
+}
+
+.footer .footer-socials a:hover {
+  background: #E93F1A;
+  color: #fff;
+}
+
+.footer-btm {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px 0px 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-btm img{
+  width: 8rem;
+}
+
+.footer-btm .copyright p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0px;
+}

@@ -49,6 +49,27 @@
 
 @media (max-width: 768px) {
     
+    .partnership{
+        padding-left: 0;
+    }
+    .partnership-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .partnership-images .partnership-img {
+        flex-basis: 50%;
+        max-width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .partnership-images img {
+        max-width: 100%;
+        height: auto;
+      }
    
     .slider_section .detail-box {
         text-align: center;
