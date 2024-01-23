@@ -327,6 +327,12 @@ a:focus {
 .about_section .img-box img {
   width: 100%;
 }
+.about_section .app-box img{
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
 .about_section .detail-box a,
 .about_section .detail-box2 a {
@@ -828,4 +834,10 @@ Footer Section
 .footer-btm .copyright p {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0px;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: px; /* Adjust the height as needed */
+  margin: 0 0.5rem; /* Adjust the spacing as needed */
 }

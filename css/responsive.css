@@ -48,7 +48,16 @@
 }
 
 @media (max-width: 768px) {
-    
+    .app-box{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .detail-box h1,
+    .detail-box span,
+    .detail-box p{
+        text-align: center;
+    }
     .partnership{
         padding-left: 0;
     }
