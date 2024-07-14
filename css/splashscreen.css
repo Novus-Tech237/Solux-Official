@@ -1,0 +1,23 @@
+.symbol {
+    color: orangered;
+}
+.get-started{
+    background-color: #ff4500;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    border-radius: 10px;
+    transition: all;
+}
+.get-started:hover{
+    background-color: orange;
+    transition: all;
+}
+a{
+    color: #ff4500;
+}
+a:hover{
+    text-decoration: underline;
+}
+body {
+    background: linear-gradient(to bottom, #fff3e6, #ffffff);
+  }
